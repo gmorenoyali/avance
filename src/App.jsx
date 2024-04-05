@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
-
 import ContactForm from './components/ContactForm'
+import Services from './components/Services'
+
 
 import './App.css'
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <ContactForm />
-       
+      <Services />       
     </>
   )
 }
