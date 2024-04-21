@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import ContactForm from './components/ContactForm'
 import Services from './components/Services'
+import Gallery from './components/Gallery'
 
 
 import './App.css'
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <ContactForm />
-      <Services />       
+      <Services />  
+      <Gallery />     
     </>
   )
 }
